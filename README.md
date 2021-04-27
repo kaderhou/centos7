@@ -22,7 +22,7 @@ Change its `platform` contents to:
 ```yml
 platforms:
   - name: instance
-    image: fiercely/centos7:systemd
+    image: kaderhou/centos7:systemd
     privileged: True
     volume_mounts:
       - "/sys/fs/cgroup:/sys/fs/cgroup:rw"
